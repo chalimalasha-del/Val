@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #FF8896; 
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Love{
+background: #ffbbc1;
+padding: 40px;
+border-radius: 20px;
+}
+
+
+h1{
+    display: center;
+    color: #c00000;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Courier New'
+    
+
+}
+h2{
+    color: #c00000;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.yes{
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.btn{
+    padding: 5px ;
+    font-size: 20px;
+    border: none;
+    border-radius:7px;
+    transition: all 0.3s;
+    display: inline-block;
+    cursor: pointer
+} 
+.yes img{
+    max-width: 100%;
+    height: auto;
+
+}
+.yes{
+    background-color:#c00000;
+    border-radius:7px;
+    color:#ffffff;
+}
+.yes:hover{
+background-color:#FF8896;
+transform:scale(1.05);
+}
+
+.yescontainer{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+.yesMessage{
+    text-align: center;
+
+}
+
+.fav{
+    background-color:#c00000;
+    border-radius:7px;
+    color:#c00000;
+    display:inline-block;
+    gap: 20px;
+}
+.fav:hover{
+    background-color:#FF8896;
+transform:scale(1.05);
+}
+
+.hers video{
+position: absolute;
+object-fit: cover;
+}
+
