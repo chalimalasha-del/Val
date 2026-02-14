@@ -51,7 +51,7 @@ h2{
     display: inline-block;
     cursor: pointer
 } 
-.yes img{
+img{
     max-width: 100%;
     height: auto;
 
@@ -93,4 +93,5 @@ transform:scale(1.05);
 position: absolute;
 object-fit: cover;
 }
+
 
